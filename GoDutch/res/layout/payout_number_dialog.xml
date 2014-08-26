@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@color/turquoise" >
+    <TableRow >
+        <Button 
+            android:id="@+id/buttonDot"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_dot" />
+        <EditText 
+            android:id="@+id/editTextDisplay"
+            android:layout_height="55dp"
+            android:layout_margin="1dp"
+            android:layout_span="3"
+            android:layout_gravity="bottom"
+            android:gravity="right"
+            android:singleLine="true"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:text="@string/DialogMessagePayoutDefaultNumber"
+            android:textStyle="bold"
+            android:focusable="false" />
+    </TableRow>
+    
+    <TableRow >
+        <Button 
+            android:id="@+id/buttonOne"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_1"
+             />
+        <Button 
+            android:id="@+id/buttonTwo"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_2" />
+        <Button 
+            android:id="@+id/buttonThree"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_3" />
+        <Button 
+            android:id="@+id/buttonFour"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_4" />
+    </TableRow>
+    
+    <TableRow >
+        <Button 
+            android:id="@+id/buttonFive"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_5" />
+        <Button 
+            android:id="@+id/buttonSix"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_6" />
+        <Button 
+            android:id="@+id/buttonSeven"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_7" />
+        <Button 
+            android:id="@+id/buttonEight"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_8" />
+    </TableRow>
+    
+    <TableRow >
+        <Button 
+            android:id="@+id/buttonNine"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_9" />
+        <Button 
+            android:id="@+id/buttonZero"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_0" />
+        <Button 
+            android:id="@+id/buttonBack"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_back" />
+        <Button 
+            android:id="@+id/buttonEnter"
+            style="@style/StyleNumberButton"
+            android:background="@drawable/selector_number_enter" />
+    </TableRow>
+
+</TableLayout>

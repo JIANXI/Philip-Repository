@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoDutch</string>
+    <string name="ActivityMainTitle">AA费用小助手</string>
+    <string name="WelcomInfo">欢迎您使用AA费用小助手</string>
+    <string name="NotificationTickerText">AA费用小助手已执行数据备份</string>
+    
+    <string name="ActivityTitleAccountBook">账本管理(%s)</string>
+    <string name="ActivityTitleCategory">类别管理(%s)</string>
+    <string name="ActivityTitleCategoryAddOrEdit">%s类别</string>
+    <string name="ActivityTitleUser">人员管理(%s)</string>
+    <string name="ActivityTitlePayoutAddOrEdit">%s消费</string>
+    <string name="ActivityTitlepaytou">查询消费-%1$s(共%2$s笔,消费%3$s元)</string>
+    <string name="ActivityTitleStastics">消费统计(%s)</string>
+    
+    <string name="appGridTextPayoutAdd">记录消费</string>
+    <string name="appGridTextPayoutManage">查询消费</string>
+    <string name="appGridTextAccountBookManage">账本管理</string>
+    <string name="appGridTextStatisticsManage">消费统计</string>
+    <string name="appGridTextCategoryManage">类别管理</string>
+    <string name="appGridTextUserManage">人员管理</string>
+    
+    <string name="PayoutTypeFlag">消费</string>
+    
+    <string name="StatisticsProgressDialogTitle">统计</string>
+    <string name="StatisticsProgressDialogWaiting">正在统计中，请稍等……</string>
+    
+    <string name="CheckBoxTextDefaultAccountBook">设置为默认帐本</string>
+    <string name="CheckBoxTextDatabaseBackup">定时自动备份（7天）</string>
+    <string name="ButtonTextSave">保存</string>
+    <string name="ButtontextCancel">取消</string>
+    <string name="ButtonTextYes">是</string>
+    <string name="ButtonTextNo">否</string>
+    <string name="ButtonTextBack">返回</string>
+    <string name="ButtonTextDatabaseBackup">备份数据</string>
+    <string name="ButtonTextDatabaseRestore">恢复数据</string>
+    <string name="TextViewTextCategoryName">类别名称</string>
+    <string name="TextViewTextParentID">所属分类</string>
+    <string name="TextViewTextChildrenCategory">%s子类</string>
+    <string name="TextViewTextPayoutTotal">共  %1$s 笔消费，合计 %2$s 元</string>
+    <string name="TextViewTextAccountBookPayoutTotal">共 %s 笔</string>
+    <string name="TextViewTextAccountBookPayoutMoney">合计消费 %s 元</string>
+    <string name="TextViewTextPayoutNoData">没有查询到消费记录</string>
+    <string name="SpinnerTextSelect">--请选择--</string>
+    <string name="ButtonTextSelectAccountBook">选择帐本</string>
+    <string name="ButtonTextEnterAmount">输入金额</string>
+    <string name="ButtonTextSelectPayoutDate">选择日期</string>
+    <string name="ButtonTextSelectPayoutType">计算方式</string>
+    <string name="ButtonTextSelectUser">选择消费人</string>
+    <string name="ButtonTextSelectCategory">选择类别</string>
+    <string name="ArrayListTextCategory">--请选择--</string>
+    
+    <string name="TitleAdd">新建</string>
+    <string name="TitleEdit">修改</string>
+    
+    <string name="MenuTextEdit">修改</string>
+    <string name="MenuTextDelete">删除</string>
+    <string name="MenuTextComment">查看消费备注</string>
+    
+    <string name="DialogTitleDelete">删除提示</string>
+    <string name="DialogTitleAccountBook">%s帐本</string>
+    <string name="DialogTitleUser">%s人员</string>
+    <string name="DialogTitleComment">消费备注</string>
+    <string name="DialogTitleDatabaseBackup">数据备份</string>
+    <string name="DialogMessageAccountBookDelete">帐本删除后相关消费记录也会被删除</string>
+    <string name="DialogMessageUserDelete">你确定要删除人员  %s 吗？</string>
+    <string name="DialogMessagePayoutDelete">你确定要删除  %s 消费记录吗？</string>
+    <string name="DialogMessagePayoutDefaultNumber">0</string>
+    <string name="DialogMessageCategoryDelete">你确定要删除  %s 类别及其下所有消费记录吗？</string>
+    <string name="DialogMessageCommentNull">还没有备注，请在修改消费中添加</string>
+    
+    <string name="HintUserName">人员名称</string>
+    <string name="HintAccountBookName">帐本名称</string>
+    <string name="HintEnterAmount">请输入金额</string>
+    <string name="HintEnterComment">请输入消费心得或备注</string>
+    <string name="HintEnterCategory">请输入或选择类别</string>
+    <string name="HintSelectUser">请选择消费人</string>
+     
+    <string name="TipsAddSucceed">保存成功</string>
+    <string name="TipsAddFail">保存失败</string>
+    <string name="TipsDeleteSucceed">删除成功</string>
+    <string name="TipsDeleteFail">删除失败</string>
+    <string name="TipsBackupSucceed">备份数据成功</string>
+    <string name="TipsBackupFail">备份数据失败</string>
+    <string name="TipsRestoreSucceed">恢复数据成功</string>
+    <string name="TipsRestoreFail">恢复数据失败</string>
+    <string name="TipsExportSucceed">帐本数据到处到 %s 成功</string>
+    <string name="TipsExportFail">导出帐本数据失败</string>
+    
+    
+    <string name="CheckDataTextChineseEnglishNum">%s必须是英文，中文和数字</string>
+    <string name="CheckDataTextUserExist">该用户已经存在，请换个用户名称</string>
+    <string name="CheckDataTextMoney">金额输入错误，请重新输入</string>
+    <string name="CheckDataTextCategoryIsNull">请选择一个消费类别</string>
+    <string name="CheckDataTextCategoryIsWrong">消费类别输入有误</string>
+    <string name="CheckDataTextCategoryHasChild">删除前请先清空子类</string>
+    <string name="CheckDataTextCategoryHasPayout">根类别下不能有消费记录</string>
+    <string name="CheckDataTextCategoryExist">该类别已经存在</string>
+    <string name="CheckDataTextPayoutUser1">多人均分请至少选择两个消费人</string>
+    <string name="CheckDataTextPayoutUser2">请选择消费人</string>
+    <string name="CheckDataTextPayoutUserIsNull">请选择消费人</string>
+    <string name="CheckDataTextAccountBookExist">该帐本已经存在，请换个帐本名称</string>
+    <string name="CheckDataTextAccountBookDeleteDefault">该帐本为默认帐本，请先设置其他帐本为默认帐本再删除</string>
+    
+</resources>

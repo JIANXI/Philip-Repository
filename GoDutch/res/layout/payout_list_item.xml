@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayoutDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_payout_total"
+        android:visibility="gone" >
+        <TextView
+            android:id="@+id/textViewPayoutDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/textViewTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="5dp"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayoutDate" >
+        <ImageView 
+            android:id="@+id/imageViewIcon"
+            style="@style/StyleListViewItemImage"
+            android:src="@drawable/ic_bill_mid"
+            android:contentDescription="@string/app_name" />
+        <TextView 
+            android:id="@+id/textViewCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageViewIcon"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:singleLine="true" />
+        <TextView
+            android:id="@+id/textViewPayoutUserAndPayoutType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageViewIcon"
+            android:layout_below="@id/textViewCategoryName"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black" />
+        <TextView 
+            android:id="@+id/textViewAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        
+    </RelativeLayout>
+    
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <!-- 类别添加编辑信息表单 -->
+    <LinearLayout 
+        android:id="@+id/layCategoryAddOrEdit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:paddingTop="30dp" >       
+        <TextView
+            android:id="@+id/textViewCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/StyleListViewItemText"
+            android:text="@string/TextViewTextCategoryName" />        
+        <EditText
+            android:id="@+id/editTextCategoryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:maxLength="20"
+            android:hint="@string/HintEnterCategory" />        
+        <TextView 
+            android:id="@+id/textViewParentID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            style="@style/StyleListViewItemText"
+            android:text="@string/TextViewTextParentID" />
+        <Spinner 
+            android:id="@+id/SpinnerParentID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" />      
+    </LinearLayout>
+    
+    <!-- 按钮区 -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="3dp"
+        android:stretchColumns="0,1" >
+        <TableRow>
+            <Button 
+                android:id="@+id/buttonSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ButtonTextSave" />
+            <Button 
+                android:id="@+id/buttonCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ButtontextCancel" />
+        </TableRow>     
+    </TableLayout>
+
+</RelativeLayout>

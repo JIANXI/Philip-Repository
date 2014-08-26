@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@color/turquoise" >
+    
+    <Button 
+        android:id="@+id/buttonDatabaseBackup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonTextDatabaseBackup" />
+    <Button 
+        android:id="@+id/buttonDatabaseRestore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/buttonDatabaseBackup"
+        android:text="@string/ButtonTextDatabaseRestore" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDatabaseBackup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonDatabaseBackup"
+        android:layout_below="@+id/buttonDatabaseBackup"
+        android:text="@string/CheckBoxTextDatabaseBackup" />
+
+</RelativeLayout>

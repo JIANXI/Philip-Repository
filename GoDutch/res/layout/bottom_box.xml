@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:layout_alignParentBottom="true" >
+
+    <!-- BottomBar，根据需要在屏幕上方和下方切换 -->
+    <RelativeLayout
+		android:id="@+id/layBottomBar" 
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+		android:background="@drawable/bg_title" >
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:src="@drawable/ic_money_mid"
+	        android:contentDescription="@string/app_name" />	
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@+id/imageView1"
+	        android:textSize="15sp"
+	        android:textColor="@color/white"
+	        android:text="@string/WelcomInfo" />
+	    <ImageView
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="20dp"
+	        android:src="@drawable/ic_option"
+	        android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+    
+    <!-- BottomBar下方的SlideMenu -->
+    <LinearLayout
+        android:id="@+id/layBottomListViewBox" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@id/layBottomBar"
+   	 	android:paddingLeft="2dp"
+    	android:paddingRight="2dp" >
+        <ListView
+			android:id="@+id/listViewSlideList"
+			style="@style/StyleListView" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>
