@@ -68,6 +68,18 @@ public class BusinessFileOperation extends BusinessBase{
 		}
 	}
 	
+	public boolean deleteDatabase() {
+		
+		try {
+			
+			FileUtil.deleteFile(SOURCE_PATH);
+			SQLiteHelper.getInstance(mContext).resetHelper();
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+	
 	/**
 	 * 还原数据操作
 	 */

@@ -1,6 +1,11 @@
 Philip-Repository
 =================
 
-My private repository
+GoDutch is a accounting app and my first android app.
 
-2015年1月21日 00:15:54 sourceTreeTest
+![image](https://github.com/YangPhilip/Philip-Repository/raw/master/screenshots/PhilipArcProgressExample.jpg)
+
+
+CustomerArcProgress is a simple customer progress whit two strokes. One shows progress and one is the backgroud. If use a Timer, the animation effects is pretty good.You can see in my example.
+
+![image](https://github.com/YangPhilip/Philip-Repository/raw/master/screenshots/PhilipArcProgressExample.jpg)

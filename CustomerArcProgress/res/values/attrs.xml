@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="ArcProgress">
+        <attr name="arc_color_main" format="color"/>
+        <attr name="arc_color_bg" format="color"/>
+        <attr name="arc_stroke_width_main" format="dimension"/>
+        <attr name="arc_stroke_width_bg" format="dimension"/>
+        <attr name="arc_max" format="integer"/>
+        <attr name="arc_angle" format="float"/>
+        <attr name="arc_progress" format="integer"/>
+    </declare-styleable>
+    
+</resources>
